@@ -1,0 +1,7 @@
+# University Management System Requirements
+# No external dependencies required for basic functionality
+
+# Optional: For enhanced features
+# pandas>=1.3.0  # For data analysis
+# tabulate>=0.8.9  # For better table formatting
+# colorama>=0.4.4  # For colored console output

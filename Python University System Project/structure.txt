@@ -1,0 +1,17 @@
+university_management/
+│   main.py
+│   student.py
+│   faculty.py
+│   course.py
+│   department.py
+│   university.py
+│   file_handler.py
+│   menu.py
+│   utils.py
+│   requirements.txt
+│   README.md
+│   data/
+│   ├── students.json
+│   ├── faculty.json
+│   ├── courses.json
+│   └── departments.json

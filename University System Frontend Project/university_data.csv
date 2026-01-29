@@ -1,0 +1,9 @@
+DATA TYPE,ID,NAME,DETAILS
+Student,241202,Muhammad Usman Khan,"Age: 19, Dept: Mechanical Engineering, GPA: 0"
+Student,241190,Arsel Kaleem,"Age: 23, Dept: Mechanical Engineering, GPA: 0"
+Student,241238,Hamza Khalid,"Age: 19, Dept: Mechanical Engineering, GPA: 0"
+Faculty,21414,Humza Ahmed,"Dept: Mechanical Engineering, Courses: 2"
+Course,ME112,Statics,"Credits: 3, Students: 3"
+Course,ME212,Dynamics,"Credits: 3, Students: 3"
+Department,ME,Mechanical Engineering,"Head: Sohail Iqbal, Courses: 0"
+Department,CS,Computer Science,"Head: Ali Sarosh, Courses: 0"

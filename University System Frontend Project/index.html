@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UniManage - University Management System</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="main-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="8" y="12" width="24" height="20" stroke="currentColor" stroke-width="2"/>
+                        <path d="M8 16 L20 8 L32 16" stroke="currentColor" stroke-width="2" fill="none"/>
+                        <line x1="14" y1="18" x2="14" y2="28" stroke="currentColor" stroke-width="2"/>
+                        <line x1="20" y1="18" x2="20" y2="28" stroke="currentColor" stroke-width="2"/>
+                        <line x1="26" y1="18" x2="26" y2="28" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                    <h1>UniManage</h1>
+                </div>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <nav class="main-nav" id="mainNav">
+                    <button class="nav-btn active" data-section="dashboard">Dashboard</button>
+                    <button class="nav-btn" data-section="students">Students</button>
+                    <button class="nav-btn" data-section="faculty">Faculty</button>
+                    <button class="nav-btn" data-section="courses">Courses</button>
+                    <button class="nav-btn" data-section="departments">Departments</button>
+                    <button class="nav-btn" data-section="settings">Settings</button>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Dashboard Section -->
+            <section id="dashboard" class="content-section active">
+                <div class="section-header">
+                    <h2>Dashboard</h2>
+                    <p class="section-subtitle">University Overview & Statistics</p>
+                </div>
+
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon">👨‍🎓</div>
+                        <div class="stat-content">
+                            <h3 id="totalStudents">0</h3>
+                            <p>Total Students</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">👨‍🏫</div>
+                        <div class="stat-content">
+                            <h3 id="totalFaculty">0</h3>
+                            <p>Total Faculty</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">📚</div>
+                        <div class="stat-content">
+                            <h3 id="totalCourses">0</h3>
+                            <p>Total Courses</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">🏛️</div>
+                        <div class="stat-content">
+                            <h3 id="totalDepartments">0</h3>
+                            <p>Departments</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="university-info">
+                    <h3>University Information</h3>
+                    <div class="info-grid">
+                        <div class="info-item">
+                            <label>University Name:</label>
+                            <span id="uniName">—</span>
+                        </div>
+                        <div class="info-item">
+                            <label>Address:</label>
+                            <span id="uniAddress">—</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="recent-activity">
+                    <h3>Top Students by GPA</h3>
+                    <div class="table-container">
+                        <table id="topStudentsTable">
+                            <thead>
+                                <tr>
+                                    <th>Rank</th>
+                                    <th>Student ID</th>
+                                    <th>Name</th>
+                                    <th>Department</th>
+                                    <th>GPA</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td colspan="5" class="empty-state">No data available</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Students Section -->
+            <section id="students" class="content-section">
+                <div class="section-header">
+                    <h2>Students Management</h2>
+                    <div class="header-actions">
+                        <input type="text" id="studentSearch" placeholder="Search by name or ID..." class="search-input">
+                        <button class="btn-primary" id="addStudentBtn">+ Add Student</button>
+                    </div>
+                </div>
+
+                <div class="table-container">
+                    <table id="studentsTable">
+                        <thead>
+                            <tr>
+                                <th>Student ID</th>
+                                <th>Name</th>
+                                <th>Age</th>
+                                <th>Gender</th>
+                                <th>Department</th>
+                                <th>GPA</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td colspan="7" class="empty-state">No students found</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- Faculty Section -->
+            <section id="faculty" class="content-section">
+                <div class="section-header">
+                    <h2>Faculty Management</h2>
+                    <div class="header-actions">
+                        <input type="text" id="facultySearch" placeholder="Search by name or ID..." class="search-input">
+                        <button class="btn-primary" id="addFacultyBtn">+ Add Faculty</button>
+                    </div>
+                </div>
+
+                <div class="table-container">
+                    <table id="facultyTable">
+                        <thead>
+                            <tr>
+                                <th>Faculty ID</th>
+                                <th>Name</th>
+                                <th>Department</th>
+                                <th>Courses Taught</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td colspan="5" class="empty-state">No faculty found</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- Courses Section -->
+            <section id="courses" class="content-section">
+                <div class="section-header">
+                    <h2>Courses Management</h2>
+                    <div class="header-actions">
+                        <input type="text" id="courseSearch" placeholder="Search by course name or ID..." class="search-input">
+                        <button class="btn-primary" id="addCourseBtn">+ Add Course</button>
+                    </div>
+                </div>
+
+                <div class="table-container">
+                    <table id="coursesTable">
+                        <thead>
+                            <tr>
+                                <th>Course ID</th>
+                                <th>Course Name</th>
+                                <th>Credit Hours</th>
+                                <th>Assigned Faculty</th>
+                                <th>Enrolled Students</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td colspan="6" class="empty-state">No courses found</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- Departments Section -->
+            <section id="departments" class="content-section">
+                <div class="section-header">
+                    <h2>Departments Management</h2>
+                    <div class="header-actions">
+                        <button class="btn-primary" id="addDepartmentBtn">+ Add Department</button>
+                    </div>
+                </div>
+
+                <div class="table-container">
+                    <table id="departmentsTable">
+                        <thead>
+                            <tr>
+                                <th>Dept ID</th>
+                                <th>Department Name</th>
+                                <th>Head of Department</th>
+                                <th>Total Courses</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td colspan="5" class="empty-state">No departments found</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- Settings Section -->
+            <section id="settings" class="content-section">
+                <div class="section-header">
+                    <h2>Settings</h2>
+                    <p class="section-subtitle">Configure data storage and university details</p>
+                </div>
+
+                <div class="settings-container">
+                    <div class="settings-card">
+                        <h3>University Details</h3>
+                        <form id="universityForm">
+                            <div class="form-group">
+                                <label for="universityName">University Name</label>
+                                <input type="text" id="universityName" placeholder="Enter university name">
+                            </div>
+                            <div class="form-group">
+                                <label for="universityAddress">Address</label>
+                                <input type="text" id="universityAddress" placeholder="Enter address">
+                            </div>
+                            <button type="submit" class="btn-primary">Save Details</button>
+                        </form>
+                    </div>
+
+                    <div class="settings-card">
+                        <h3>Data Storage</h3>
+                        <div class="storage-options">
+                            <label class="radio-option">
+                                <input type="radio" name="storageType" value="local" checked>
+                                <span>Local Storage (Browser)</span>
+                            </label>
+                            <label class="radio-option">
+                                <input type="radio" name="storageType" value="google">
+                                <span>Google Sheets</span>
+                            </label>
+                            <label class="radio-option">
+                                <input type="radio" name="storageType" value="excel">
+                                <span>Excel File</span>
+                            </label>
+                        </div>
+
+                        <div id="googleSheetsConfig" class="storage-config" style="display: none;">
+                            <div class="form-group">
+                                <label for="apiKey">API Key</label>
+                                <input type="text" id="apiKey" placeholder="Enter Google Sheets API Key">
+                            </div>
+                            <div class="form-group">
+                                <label for="spreadsheetId">Spreadsheet ID</label>
+                                <input type="text" id="spreadsheetId" placeholder="Enter Spreadsheet ID">
+                            </div>
+                            <button class="btn-secondary" id="testGoogleConnection">Test Connection</button>
+                        </div>
+
+                        <div id="excelConfig" class="storage-config" style="display: none;">
+                            <div class="form-group">
+                                <label>Import Excel File</label>
+                                <input type="file" id="excelFile" accept=".xlsx,.xls">
+                            </div>
+                            <button class="btn-secondary" id="exportExcel">Export to Excel</button>
+                        </div>
+                    </div>
+
+                    <div class="settings-card">
+                        <h3>Data Management</h3>
+                        <button class="btn-secondary" id="loadSampleData">Load Sample Data</button>
+                        <button class="btn-secondary" id="exportCSV">Export All Data to CSV</button>
+                        <button class="btn-danger" id="clearAllData">Clear All Data</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Modal for Add/Edit Forms -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <h2 id="modalTitle">Add Item</h2>
+            <form id="modalForm">
+                <div id="formFields"></div>
+                <div class="form-actions">
+                    <button type="submit" class="btn-primary">Save</button>
+                    <button type="button" class="btn-secondary modal-cancel">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Notification Toast -->
+    <div id="toast" class="toast"></div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,1808 @@
+{
+  "name": "Global Technological University",
+  "address": "456 Innovation Drive, Silicon Valley, CA 94000",
+  "departments": [
+    {
+      "department_id": "CSE",
+      "name": "Computer Science and Engineering",
+      "head_of_department": "F1001",
+      "courses_offered": [
+        "CSE101", "CSE102", "CSE201", "CSE202", "CSE301", "CSE302", 
+        "CSE401", "CSE402", "CSE501", "CSE502", "CSE601", "CSE602"
+      ],
+      "additional_info": {
+        "established_year": 1995,
+        "research_labs": 8,
+        "student_capacity": 500,
+        "faculty_count": 25,
+        "rank": 1
+      }
+    },
+    {
+      "department_id": "EEE",
+      "name": "Electrical and Electronics Engineering",
+      "head_of_department": "F2001",
+      "courses_offered": [
+        "EEE101", "EEE102", "EEE201", "EEE202", "EEE301", "EEE302",
+        "EEE401", "EEE402", "EEE501"
+      ],
+      "additional_info": {
+        "established_year": 1980,
+        "research_labs": 6,
+        "student_capacity": 400,
+        "faculty_count": 18,
+        "rank": 3
+      }
+    },
+    {
+      "department_id": "ME",
+      "name": "Mechanical Engineering",
+      "head_of_department": "F3001",
+      "courses_offered": [
+        "ME101", "ME102", "ME201", "ME202", "ME301", "ME302",
+        "ME401", "ME402", "ME501"
+      ],
+      "additional_info": {
+        "established_year": 1975,
+        "research_labs": 5,
+        "student_capacity": 350,
+        "faculty_count": 15,
+        "rank": 4
+      }
+    },
+    {
+      "department_id": "CE",
+      "name": "Civil Engineering",
+      "head_of_department": "F4001",
+      "courses_offered": [
+        "CE101", "CE102", "CE201", "CE202", "CE301", "CE302",
+        "CE401", "CE402"
+      ],
+      "additional_info": {
+        "established_year": 1985,
+        "research_labs": 4,
+        "student_capacity": 300,
+        "faculty_count": 12,
+        "rank": 5
+      }
+    },
+    {
+      "department_id": "MAT",
+      "name": "Mathematics",
+      "head_of_department": "F5001",
+      "courses_offered": [
+        "MAT101", "MAT102", "MAT201", "MAT202", "MAT301", "MAT302",
+        "MAT401", "MAT402", "MAT501"
+      ],
+      "additional_info": {
+        "established_year": 1960,
+        "research_labs": 3,
+        "student_capacity": 200,
+        "faculty_count": 10,
+        "rank": 2
+      }
+    },
+    {
+      "department_id": "PHY",
+      "name": "Physics",
+      "head_of_department": "F6001",
+      "courses_offered": [
+        "PHY101", "PHY102", "PHY201", "PHY202", "PHY301", "PHY302"
+      ],
+      "additional_info": {
+        "established_year": 1960,
+        "research_labs": 4,
+        "student_capacity": 150,
+        "faculty_count": 8,
+        "rank": 6
+      }
+    },
+    {
+      "department_id": "CHE",
+      "name": "Chemical Engineering",
+      "head_of_department": "F7001",
+      "courses_offered": [
+        "CHE101", "CHE102", "CHE201", "CHE202", "CHE301", "CHE302"
+      ],
+      "additional_info": {
+        "established_year": 1990,
+        "research_labs": 5,
+        "student_capacity": 250,
+        "faculty_count": 10,
+        "rank": 7
+      }
+    },
+    {
+      "department_id": "BUS",
+      "name": "Business Administration",
+      "head_of_department": "F8001",
+      "courses_offered": [
+        "BUS101", "BUS102", "BUS201", "BUS202", "BUS301", "BUS302",
+        "BUS401", "BUS402", "BUS501", "BUS502"
+      ],
+      "additional_info": {
+        "established_year": 2000,
+        "research_labs": 2,
+        "student_capacity": 400,
+        "faculty_count": 15,
+        "rank": 8
+      }
+    },
+    {
+      "department_id": "ECO",
+      "name": "Economics",
+      "head_of_department": "F9001",
+      "courses_offered": [
+        "ECO101", "ECO102", "ECO201", "ECO202", "ECO301", "ECO302"
+      ],
+      "additional_info": {
+        "established_year": 2005,
+        "research_labs": 1,
+        "student_capacity": 180,
+        "faculty_count": 7,
+        "rank": 9
+      }
+    },
+    {
+      "department_id": "PSY",
+      "name": "Psychology",
+      "head_of_department": "F0010",
+      "courses_offered": [
+        "PSY101", "PSY102", "PSY201", "PSY202", "PSY301", "PSY302"
+      ],
+      "additional_info": {
+        "established_year": 2010,
+        "research_labs": 3,
+        "student_capacity": 120,
+        "faculty_count": 6,
+        "rank": 10
+      }
+    }
+  ],
+  "students": [
+    {
+      "student_id": "S1001",
+      "name": "Alexander Jameson",
+      "age": 20,
+      "gender": "M",
+      "department": "CSE",
+      "gpa": 3.92,
+      "contact_info": {
+        "email": "alex.jameson@student.gtu.edu",
+        "phone": "+1-555-0101",
+        "address": "123 University Ave, Dorm A-101"
+      },
+      "academic_info": {
+        "year": 3,
+        "semester": 2,
+        "total_credits": 78,
+        "scholarship": "Presidential Scholarship",
+        "status": "Active"
+      },
+      "course_grades": {
+        "CSE101": 4.0,
+        "CSE102": 4.0,
+        "CSE201": 3.9,
+        "CSE202": 4.0,
+        "CSE301": 3.8,
+        "MAT101": 4.0,
+        "MAT102": 4.0,
+        "PHY101": 3.9,
+        "BUS101": 3.8
+      }
+    },
+    {
+      "student_id": "S1002",
+      "name": "Benjamin Chen",
+      "age": 21,
+      "gender": "M",
+      "department": "CSE",
+      "gpa": 3.75,
+      "contact_info": {
+        "email": "ben.chen@student.gtu.edu",
+        "phone": "+1-555-0102",
+        "address": "456 College St, Dorm B-205"
+      },
+      "academic_info": {
+        "year": 3,
+        "semester": 2,
+        "total_credits": 75,
+        "scholarship": "Dean's Scholarship",
+        "status": "Active"
+      },
+      "course_grades": {
+        "CSE101": 3.8,
+        "CSE102": 3.7,
+        "CSE201": 3.9,
+        "CSE202": 3.6,
+        "CSE301": 3.8,
+        "MAT101": 3.5,
+        "MAT102": 3.7,
+        "PHY101": 3.8,
+        "BUS101": 3.6
+      }
+    },
+    {
+      "student_id": "S1003",
+      "name": "Catherine Rodriguez",
+      "age": 19,
+      "gender": "F",
+      "department": "CSE",
+      "gpa": 3.88,
+      "contact_info": {
+        "email": "cathy.rod@student.gtu.edu",
+        "phone": "+1-555-0103",
+        "address": "789 Campus Rd, Dorm C-301"
+      },
+      "academic_info": {
+        "year": 2,
+        "semester": 2,
+        "total_credits": 45,
+        "scholarship": "Merit Scholarship",
+        "status": "Active"
+      },
+      "course_grades": {
+        "CSE101": 3.9,
+        "CSE102": 4.0,
+        "CSE201": 3.8,
+        "MAT101": 3.7,
+        "MAT102": 3.9,
+        "PHY101": 3.8,
+        "BUS101": 3.9
+      }
+    },
+    {
+      "student_id": "S1004",
+      "name": "David Kim",
+      "age": 22,
+      "gender": "M",
+      "department": "CSE",
+      "gpa": 3.95,
+      "contact_info": {
+        "email": "david.kim@student.gtu.edu",
+        "phone": "+1-555-0104",
+        "address": "101 Tech Blvd, Apt 302"
+      },
+      "academic_info": {
+        "year": 4,
+        "semester": 1,
+        "total_credits": 105,
+        "scholarship": "Full Scholarship",
+        "status": "Active"
+      },
+      "course_grades": {
+        "CSE101": 4.0,
+        "CSE102": 4.0,
+        "CSE201": 3.9,
+        "CSE202": 4.0,
+        "CSE301": 4.0,
+        "CSE302": 3.9,
+        "CSE401": 4.0,
+        "MAT101": 4.0,
+        "MAT102": 3.9,
+        "PHY101": 4.0,
+        "BUS101": 3.8
+      }
+    },
+    {
+      "student_id": "S1005",
+      "name": "Eleanor Smith",
+      "age": 20,
+      "gender": "F",
+      "department": "CSE",
+      "gpa": 3.82,
+      "contact_info": {
+        "email": "eleanor.smith@student.gtu.edu",
+        "phone": "+1-555-0105",
+        "address": "202 Innovation Dr, Dorm D-102"
+      },
+      "academic_info": {
+        "year": 3,
+        "semester": 1,
+        "total_credits": 72,
+        "scholarship": "Technology Scholarship",
+        "status": "Active"
+      },
+      "course_grades": {
+        "CSE101": 3.8,
+        "CSE102": 3.9,
+        "CSE201": 3.7,
+        "CSE202": 3.8,
+        "CSE301": 3.9,
+        "MAT101": 3.6,
+        "MAT102": 3.8,
+        "PHY101": 3.7,
+        "BUS101": 3.9
+      }
+    },
+    {
+      "student_id": "S2001",
+      "name": "Franklin Wang",
+      "age": 21,
+      "gender": "M",
+      "department": "EEE",
+      "gpa": 3.65,
+      "contact_info": {
+        "email": "frank.wang@student.gtu.edu",
+        "phone": "+1-555-0106",
+        "address": "303 Circuit Lane, Dorm E-201"
+      },
+      "academic_info": {
+        "year": 3,
+        "semester": 2,
+        "total_credits": 76,
+        "scholarship": "Engineering Scholarship",
+        "status": "Active"
+      },
+      "course_grades": {
+        "EEE101": 3.5,
+        "EEE102": 3.7,
+        "EEE201": 3.6,
+        "EEE202": 3.8,
+        "EEE301": 3.5,
+        "MAT101": 3.7,
+        "MAT102": 3.6,
+        "PHY101": 3.8,
+        "PHY102": 3.5
+      }
+    },
+    {
+      "student_id": "S2002",
+      "name": "Grace Lee",
+      "age": 20,
+      "gender": "F",
+      "department": "EEE",
+      "gpa": 3.88,
+      "contact_info": {
+        "email": "grace.lee@student.gtu.edu",
+        "phone": "+1-555-0107",
+        "address": "404 Voltage St, Apt 105"
+      },
+      "academic_info": {
+        "year": 3,
+        "semester": 1,
+        "total_credits": 74,
+        "scholarship": "Dean's Scholarship",
+        "status": "Active"
+      },
+      "course_grades": {
+        "EEE101": 3.9,
+        "EEE102": 4.0,
+        "EEE201": 3.8,
+        "EEE202": 3.9,
+        "EEE301": 3.8,
+        "MAT101": 3.9,
+        "MAT102": 3.8,
+        "PHY101": 4.0,
+        "PHY102": 3.9
+      }
+    },
+    {
+      "student_id": "S2003",
+      "name": "Henry Martinez",
+      "age": 22,
+      "gender": "M",
+      "department": "EEE",
+      "gpa": 3.42,
+      "contact_info": {
+        "email": "henry.martinez@student.gtu.edu",
+        "phone": "+1-555-0108",
+        "address": "505 Current Ave, Dorm F-304"
+      },
+      "academic_info": {
+        "year": 4,
+        "semester": 1,
+        "total_credits": 102,
+        "scholarship": "Partial Scholarship",
+        "status": "Active"
+      },
+      "course_grades": {
+        "EEE101": 3.3,
+        "EEE102": 3.4,
+        "EEE201": 3.5,
+        "EEE202": 3.2,
+        "EEE301": 3.6,
+        "EEE302": 3.3,
+        "EEE401": 3.5,
+        "MAT101": 3.4,
+        "MAT102": 3.5,
+        "PHY101": 3.6
+      }
+    },
+    {
+      "student_id": "S3001",
+      "name": "Isabella Garcia",
+      "age": 19,
+      "gender": "F",
+      "department": "ME",
+      "gpa": 3.78,
+      "contact_info": {
+        "email": "bella.garcia@student.gtu.edu",
+        "phone": "+1-555-0109",
+        "address": "606 Gear Rd, Dorm G-103"
+      },
+      "academic_info": {
+        "year": 2,
+        "semester": 2,
+        "total_credits": 48,
+        "scholarship": "Mechanical Scholarship",
+        "status": "Active"
+      },
+      "course_grades": {
+        "ME101": 3.8,
+        "ME102": 3.7,
+        "ME201": 3.9,
+        "MAT101": 3.6,
+        "MAT102": 3.8,
+        "PHY101": 3.7,
+        "PHY102": 3.9
+      }
+    },
+    {
+      "student_id": "S3002",
+      "name": "Jacob Thompson",
+      "age": 21,
+      "gender": "M",
+      "department": "ME",
+      "gpa": 3.55,
+      "contact_info": {
+        "email": "jacob.thompson@student.gtu.edu",
+        "phone": "+1-555-0110",
+        "address": "707 Machine St, Apt 208"
+      },
+      "academic_info": {
+        "year": 3,
+        "semester": 2,
+        "total_credits": 77,
+        "scholarship": "Engineering Scholarship",
+        "status": "Active"
+      },
+      "course_grades": {
+        "ME101": 3.5,
+        "ME102": 3.6,
+        "ME201": 3.4,
+        "ME202": 3.7,
+        "ME301": 3.5,
+        "MAT101": 3.6,
+        "MAT102": 3.5,
+        "PHY101": 3.7,
+        "PHY102": 3.4
+      }
+    },
+    {
+      "student_id": "S4001",
+      "name": "Katherine Wilson",
+      "age": 20,
+      "gender": "F",
+      "department": "CE",
+      "gpa": 3.91,
+      "contact_info": {
+        "email": "kate.wilson@student.gtu.edu",
+        "phone": "+1-555-0111",
+        "address": "808 Bridge Ave, Dorm H-305"
+      },
+      "academic_info": {
+        "year": 3,
+        "semester": 1,
+        "total_credits": 73,
+        "scholarship": "Civil Engineering Scholarship",
+        "status": "Active"
+      },
+      "course_grades": {
+        "CE101": 4.0,
+        "CE102": 3.9,
+        "CE201": 4.0,
+        "CE202": 3.8,
+        "CE301": 3.9,
+        "MAT101": 3.9,
+        "MAT102": 4.0,
+        "PHY101": 3.8
+      }
+    },
+    {
+      "student_id": "S5001",
+      "name": "Liam O'Connor",
+      "age": 22,
+      "gender": "M",
+      "department": "MAT",
+      "gpa": 3.96,
+      "contact_info": {
+        "email": "liam.oconnor@student.gtu.edu",
+        "phone": "+1-555-0112",
+        "address": "909 Equation Blvd, Apt 401"
+      },
+      "academic_info": {
+        "year": 4,
+        "semester": 1,
+        "total_credits": 110,
+        "scholarship": "Full Mathematics Scholarship",
+        "status": "Active"
+      },
+      "course_grades": {
+        "MAT101": 4.0,
+        "MAT102": 4.0,
+        "MAT201": 3.9,
+        "MAT202": 4.0,
+        "MAT301": 4.0,
+        "MAT302": 3.9,
+        "MAT401": 4.0,
+        "CSE101": 3.8,
+        "PHY101": 3.9,
+        "BUS101": 3.7
+      }
+    },
+    {
+      "student_id": "S6001",
+      "name": "Maya Patel",
+      "age": 21,
+      "gender": "F",
+      "department": "PHY",
+      "gpa": 3.84,
+      "contact_info": {
+        "email": "maya.patel@student.gtu.edu",
+        "phone": "+1-555-0113",
+        "address": "1010 Quantum Lane, Dorm I-204"
+      },
+      "academic_info": {
+        "year": 3,
+        "semester": 2,
+        "total_credits": 79,
+        "scholarship": "Physics Research Scholarship",
+        "status": "Active"
+      },
+      "course_grades": {
+        "PHY101": 3.9,
+        "PHY102": 3.8,
+        "PHY201": 3.9,
+        "PHY202": 3.7,
+        "PHY301": 3.8,
+        "MAT101": 3.9,
+        "MAT102": 3.8,
+        "MAT201": 3.9,
+        "CSE101": 3.7
+      }
+    },
+    {
+      "student_id": "S7001",
+      "name": "Noah Johnson",
+      "age": 20,
+      "gender": "M",
+      "department": "CHE",
+      "gpa": 3.67,
+      "contact_info": {
+        "email": "noah.johnson@student.gtu.edu",
+        "phone": "+1-555-0114",
+        "address": "1111 Reaction Rd, Apt 303"
+      },
+      "academic_info": {
+        "year": 3,
+        "semester": 1,
+        "total_credits": 71,
+        "scholarship": "Chemical Engineering Grant",
+        "status": "Active"
+      },
+      "course_grades": {
+        "CHE101": 3.6,
+        "CHE102": 3.7,
+        "CHE201": 3.5,
+        "CHE202": 3.8,
+        "CHE301": 3.6,
+        "MAT101": 3.7,
+        "MAT102": 3.6,
+        "PHY101": 3.8,
+        "PHY102": 3.5
+      }
+    },
+    {
+      "student_id": "S8001",
+      "name": "Olivia Davis",
+      "age": 22,
+      "gender": "F",
+      "department": "BUS",
+      "gpa": 3.89,
+      "contact_info": {
+        "email": "olivia.davis@student.gtu.edu",
+        "phone": "+1-555-0115",
+        "address": "1212 Market St, Dorm J-401"
+      },
+      "academic_info": {
+        "year": 4,
+        "semester": 1,
+        "total_credits": 108,
+        "scholarship": "Business Leadership Scholarship",
+        "status": "Active"
+      },
+      "course_grades": {
+        "BUS101": 3.9,
+        "BUS102": 4.0,
+        "BUS201": 3.8,
+        "BUS202": 3.9,
+        "BUS301": 3.8,
+        "BUS302": 3.9,
+        "BUS401": 3.8,
+        "MAT101": 3.7,
+        "ECO101": 3.9,
+        "CSE101": 3.6
+      }
+    },
+    {
+      "student_id": "S9001",
+      "name": "Peter Anderson",
+      "age": 21,
+      "gender": "M",
+      "department": "ECO",
+      "gpa": 3.72,
+      "contact_info": {
+        "email": "peter.anderson@student.gtu.edu",
+        "phone": "+1-555-0116",
+        "address": "1313 Supply Ave, Apt 502"
+      },
+      "academic_info": {
+        "year": 3,
+        "semester": 2,
+        "total_credits": 80,
+        "scholarship": "Economics Research Grant",
+        "status": "Active"
+      },
+      "course_grades": {
+        "ECO101": 3.8,
+        "ECO102": 3.7,
+        "ECO201": 3.9,
+        "ECO202": 3.6,
+        "ECO301": 3.8,
+        "MAT101": 3.7,
+        "MAT102": 3.6,
+        "BUS101": 3.8,
+        "BUS102": 3.5
+      }
+    },
+    {
+      "student_id": "S0010",
+      "name": "Quinn Miller",
+      "age": 19,
+      "gender": "F",
+      "department": "PSY",
+      "gpa": 3.63,
+      "contact_info": {
+        "email": "quinn.miller@student.gtu.edu",
+        "phone": "+1-555-0117",
+        "address": "1414 Mind St, Dorm K-103"
+      },
+      "academic_info": {
+        "year": 2,
+        "semester": 2,
+        "total_credits": 46,
+        "scholarship": "Psychology Research Scholarship",
+        "status": "Active"
+      },
+      "course_grades": {
+        "PSY101": 3.7,
+        "PSY102": 3.6,
+        "PSY201": 3.5,
+        "PSY202": 3.8,
+        "MAT101": 3.5,
+        "BUS101": 3.6,
+        "ECO101": 3.7
+      }
+    },
+    {
+      "student_id": "S0011",
+      "name": "Ryan Taylor",
+      "age": 23,
+      "gender": "M",
+      "department": "CSE",
+      "gpa": 3.45,
+      "contact_info": {
+        "email": "ryan.taylor@student.gtu.edu",
+        "phone": "+1-555-0118",
+        "address": "1515 Code Blvd, Apt 604"
+      },
+      "academic_info": {
+        "year": 5,
+        "semester": 1,
+        "total_credits": 135,
+        "scholarship": "None",
+        "status": "Active"
+      },
+      "course_grades": {
+        "CSE101": 3.4,
+        "CSE102": 3.3,
+        "CSE201": 3.5,
+        "CSE202": 3.4,
+        "CSE301": 3.6,
+        "CSE302": 3.3,
+        "CSE401": 3.5,
+        "CSE402": 3.4,
+        "MAT101": 3.5,
+        "MAT102": 3.4,
+        "PHY101": 3.6,
+        "BUS101": 3.3
+      }
+    },
+    {
+      "student_id": "S0012",
+      "name": "Sophia Brown",
+      "age": 20,
+      "gender": "F",
+      "department": "EEE",
+      "gpa": 3.79,
+      "contact_info": {
+        "email": "sophia.brown@student.gtu.edu",
+        "phone": "+1-555-0119",
+        "address": "1616 Circuit Rd, Dorm L-205"
+      },
+      "academic_info": {
+        "year": 3,
+        "semester": 1,
+        "total_credits": 73,
+        "scholarship": "Women in Engineering Scholarship",
+        "status": "Active"
+      },
+      "course_grades": {
+        "EEE101": 3.8,
+        "EEE102": 3.9,
+        "EEE201": 3.7,
+        "EEE202": 3.8,
+        "EEE301": 3.8,
+        "MAT101": 3.6,
+        "MAT102": 3.8,
+        "PHY101": 3.7,
+        "PHY102": 3.8
+      }
+    },
+    {
+      "student_id": "S0013",
+      "name": "Thomas Clark",
+      "age": 21,
+      "gender": "M",
+      "department": "ME",
+      "gpa": 3.51,
+      "contact_info": {
+        "email": "thomas.clark@student.gtu.edu",
+        "phone": "+1-555-0120",
+        "address": "1717 Gear St, Apt 306"
+      },
+      "academic_info": {
+        "year": 4,
+        "semester": 1,
+        "total_credits": 104,
+        "scholarship": "Partial Scholarship",
+        "status": "Active"
+      },
+      "course_grades": {
+        "ME101": 3.5,
+        "ME102": 3.4,
+        "ME201": 3.6,
+        "ME202": 3.5,
+        "ME301": 3.4,
+        "ME302": 3.6,
+        "ME401": 3.5,
+        "MAT101": 3.6,
+        "MAT102": 3.5,
+        "PHY101": 3.7
+      }
+    }
+  ],
+  "faculty": [
+    {
+      "faculty_id": "F1001",
+      "name": "Dr. Robert Williams",
+      "department": "CSE",
+      "position": "Professor & Head of Department",
+      "specialization": "Artificial Intelligence, Machine Learning",
+      "qualification": "PhD in Computer Science, Stanford University",
+      "experience_years": 20,
+      "office": "CSE Building, Room 301",
+      "email": "r.williams@gtu.edu",
+      "phone": "+1-555-0201",
+      "courses_taught": ["CSE301", "CSE501", "CSE601"],
+      "research_projects": ["AI in Healthcare", "Autonomous Systems"],
+      "additional_info": {
+        "hire_date": "2004-08-15",
+        "salary_grade": "A1",
+        "publications": 85,
+        "phd_students": 12,
+        "masters_students": 25
+      }
+    },
+    {
+      "faculty_id": "F1002",
+      "name": "Prof. Jennifer Liu",
+      "department": "CSE",
+      "position": "Associate Professor",
+      "specialization": "Data Science, Big Data Analytics",
+      "qualification": "PhD in Computer Engineering, MIT",
+      "experience_years": 15,
+      "office": "CSE Building, Room 205",
+      "email": "j.liu@gtu.edu",
+      "phone": "+1-555-0202",
+      "courses_taught": ["CSE201", "CSE401"],
+      "research_projects": ["Big Data Analytics", "IoT Systems"],
+      "additional_info": {
+        "hire_date": "2009-01-10",
+        "salary_grade": "A2",
+        "publications": 52,
+        "phd_students": 8,
+        "masters_students": 18
+      }
+    },
+    {
+      "faculty_id": "F1003",
+      "name": "Dr. Michael Brown",
+      "department": "CSE",
+      "position": "Assistant Professor",
+      "specialization": "Computer Networks, Cybersecurity",
+      "qualification": "PhD in Network Security, Carnegie Mellon",
+      "experience_years": 8,
+      "office": "CSE Building, Room 108",
+      "email": "m.brown@gtu.edu",
+      "phone": "+1-555-0203",
+      "courses_taught": ["CSE202", "CSE402"],
+      "research_projects": ["Network Security", "Blockchain Technology"],
+      "additional_info": {
+        "hire_date": "2016-03-22",
+        "salary_grade": "A3",
+        "publications": 28,
+        "phd_students": 4,
+        "masters_students": 10
+      }
+    },
+    {
+      "faculty_id": "F1004",
+      "name": "Prof. Sarah Johnson",
+      "department": "CSE",
+      "position": "Professor",
+      "specialization": "Software Engineering, Cloud Computing",
+      "qualification": "PhD in Software Engineering, UC Berkeley",
+      "experience_years": 18,
+      "office": "CSE Building, Room 302",
+      "email": "s.johnson@gtu.edu",
+      "phone": "+1-555-0204",
+      "courses_taught": ["CSE102", "CSE302", "CSE502"],
+      "research_projects": ["Cloud Computing", "DevOps"],
+      "additional_info": {
+        "hire_date": "2006-07-01",
+        "salary_grade": "A1",
+        "publications": 72,
+        "phd_students": 10,
+        "masters_students": 22
+      }
+    },
+    {
+      "faculty_id": "F1005",
+      "name": "Dr. David Miller",
+      "department": "CSE",
+      "position": "Lecturer",
+      "specialization": "Programming, Web Development",
+      "qualification": "MS in Computer Science, Georgia Tech",
+      "experience_years": 5,
+      "office": "CSE Building, Room 101",
+      "email": "d.miller@gtu.edu",
+      "phone": "+1-555-0205",
+      "courses_taught": ["CSE101"],
+      "research_projects": ["Web Technologies", "Mobile Development"],
+      "additional_info": {
+        "hire_date": "2019-08-15",
+        "salary_grade": "B1",
+        "publications": 15,
+        "phd_students": 0,
+        "masters_students": 5
+      }
+    },
+    {
+      "faculty_id": "F2001",
+      "name": "Dr. Elizabeth Chen",
+      "department": "EEE",
+      "position": "Professor & Head of Department",
+      "specialization": "Power Systems, Renewable Energy",
+      "qualification": "PhD in Electrical Engineering, MIT",
+      "experience_years": 22,
+      "office": "EEE Building, Room 401",
+      "email": "e.chen@gtu.edu",
+      "phone": "+1-555-0206",
+      "courses_taught": ["EEE301", "EEE401"],
+      "research_projects": ["Smart Grid", "Solar Energy Systems"],
+      "additional_info": {
+        "hire_date": "2002-09-01",
+        "salary_grade": "A1",
+        "publications": 95,
+        "phd_students": 15,
+        "masters_students": 30
+      }
+    },
+    {
+      "faculty_id": "F2002",
+      "name": "Prof. Richard Davis",
+      "department": "EEE",
+      "position": "Associate Professor",
+      "specialization": "Electronics, VLSI Design",
+      "qualification": "PhD in Electronics, Stanford University",
+      "experience_years": 16,
+      "office": "EEE Building, Room 305",
+      "email": "r.davis@gtu.edu",
+      "phone": "+1-555-0207",
+      "courses_taught": ["EEE201", "EEE302"],
+      "research_projects": ["VLSI Design", "Embedded Systems"],
+      "additional_info": {
+        "hire_date": "2008-01-15",
+        "salary_grade": "A2",
+        "publications": 60,
+        "phd_students": 9,
+        "masters_students": 20
+      }
+    },
+    {
+      "faculty_id": "F2003",
+      "name": "Dr. Patricia Wilson",
+      "department": "EEE",
+      "position": "Assistant Professor",
+      "specialization": "Signal Processing, Communications",
+      "qualification": "PhD in Communications, Caltech",
+      "experience_years": 7,
+      "office": "EEE Building, Room 208",
+      "email": "p.wilson@gtu.edu",
+      "phone": "+1-555-0208",
+      "courses_taught": ["EEE101", "EEE202"],
+      "research_projects": ["5G Communications", "Signal Processing"],
+      "additional_info": {
+        "hire_date": "2017-06-01",
+        "salary_grade": "A3",
+        "publications": 25,
+        "phd_students": 3,
+        "masters_students": 8
+      }
+    },
+    {
+      "faculty_id": "F3001",
+      "name": "Dr. James Anderson",
+      "department": "ME",
+      "position": "Professor & Head of Department",
+      "specialization": "Thermodynamics, Fluid Mechanics",
+      "qualification": "PhD in Mechanical Engineering, MIT",
+      "experience_years": 25,
+      "office": "ME Building, Room 501",
+      "email": "j.anderson@gtu.edu",
+      "phone": "+1-555-0209",
+      "courses_taught": ["ME301", "ME401"],
+      "research_projects": ["Heat Transfer", "Fluid Dynamics"],
+      "additional_info": {
+        "hire_date": "1999-08-15",
+        "salary_grade": "A1",
+        "publications": 110,
+        "phd_students": 20,
+        "masters_students": 35
+      }
+    },
+    {
+      "faculty_id": "F3002",
+      "name": "Prof. Maria Garcia",
+      "department": "ME",
+      "position": "Associate Professor",
+      "specialization": "Robotics, Automation",
+      "qualification": "PhD in Robotics, Carnegie Mellon",
+      "experience_years": 14,
+      "office": "ME Building, Room 402",
+      "email": "m.garcia@gtu.edu",
+      "phone": "+1-555-0210",
+      "courses_taught": ["ME202", "ME302"],
+      "research_projects": ["Industrial Robotics", "Automation Systems"],
+      "additional_info": {
+        "hire_date": "2010-03-01",
+        "salary_grade": "A2",
+        "publications": 48,
+        "phd_students": 7,
+        "masters_students": 15
+      }
+    },
+    {
+      "faculty_id": "F4001",
+      "name": "Dr. Christopher Taylor",
+      "department": "CE",
+      "position": "Professor & Head of Department",
+      "specialization": "Structural Engineering, Earthquake Engineering",
+      "qualification": "PhD in Civil Engineering, UC Berkeley",
+      "experience_years": 21,
+      "office": "CE Building, Room 301",
+      "email": "c.taylor@gtu.edu",
+      "phone": "+1-555-0211",
+      "courses_taught": ["CE301", "CE401"],
+      "research_projects": ["Earthquake Resistant Structures", "Bridge Design"],
+      "additional_info": {
+        "hire_date": "2003-07-01",
+        "salary_grade": "A1",
+        "publications": 88,
+        "phd_students": 13,
+        "masters_students": 28
+      }
+    },
+    {
+      "faculty_id": "F5001",
+      "name": "Dr. Susan Martinez",
+      "department": "MAT",
+      "position": "Professor & Head of Department",
+      "specialization": "Applied Mathematics, Numerical Analysis",
+      "qualification": "PhD in Mathematics, Princeton University",
+      "experience_years": 28,
+      "office": "MAT Building, Room 201",
+      "email": "s.martinez@gtu.edu",
+      "phone": "+1-555-0212",
+      "courses_taught": ["MAT301", "MAT401", "MAT501"],
+      "research_projects": ["Numerical Methods", "Mathematical Modeling"],
+      "additional_info": {
+        "hire_date": "1996-09-01",
+        "salary_grade": "A1",
+        "publications": 125,
+        "phd_students": 22,
+        "masters_students": 40
+      }
+    },
+    {
+      "faculty_id": "F5002",
+      "name": "Prof. Thomas White",
+      "department": "MAT",
+      "position": "Professor",
+      "specialization": "Pure Mathematics, Algebra",
+      "qualification": "PhD in Mathematics, Harvard University",
+      "experience_years": 19,
+      "office": "MAT Building, Room 202",
+      "email": "t.white@gtu.edu",
+      "phone": "+1-555-0213",
+      "courses_taught": ["MAT101", "MAT201"],
+      "research_projects": ["Algebraic Structures", "Number Theory"],
+      "additional_info": {
+        "hire_date": "2005-08-15",
+        "salary_grade": "A1",
+        "publications": 75,
+        "phd_students": 11,
+        "masters_students": 25
+      }
+    },
+    {
+      "faculty_id": "F6001",
+      "name": "Dr. Benjamin Lee",
+      "department": "PHY",
+      "position": "Professor & Head of Department",
+      "specialization": "Quantum Physics, Particle Physics",
+      "qualification": "PhD in Physics, Caltech",
+      "experience_years": 24,
+      "office": "PHY Building, Room 101",
+      "email": "b.lee@gtu.edu",
+      "phone": "+1-555-0214",
+      "courses_taught": ["PHY301", "PHY302"],
+      "research_projects": ["Quantum Computing", "Particle Physics"],
+      "additional_info": {
+        "hire_date": "2000-01-15",
+        "salary_grade": "A1",
+        "publications": 105,
+        "phd_students": 18,
+        "masters_students": 32
+      }
+    },
+    {
+      "faculty_id": "F6002",
+      "name": "Prof. Nancy Clark",
+      "department": "PHY",
+      "position": "Associate Professor",
+      "specialization": "Classical Mechanics, Thermodynamics",
+      "qualification": "PhD in Physics, MIT",
+      "experience_years": 15,
+      "office": "PHY Building, Room 102",
+      "email": "n.clark@gtu.edu",
+      "phone": "+1-555-0215",
+      "courses_taught": ["PHY101", "PHY201"],
+      "research_projects": ["Thermodynamics", "Statistical Mechanics"],
+      "additional_info": {
+        "hire_date": "2009-08-15",
+        "salary_grade": "A2",
+        "publications": 55,
+        "phd_students": 8,
+        "masters_students": 18
+      }
+    },
+    {
+      "faculty_id": "F7001",
+      "name": "Dr. Kevin Harris",
+      "department": "CHE",
+      "position": "Professor & Head of Department",
+      "specialization": "Chemical Process Engineering, Petrochemicals",
+      "qualification": "PhD in Chemical Engineering, University of Texas",
+      "experience_years": 20,
+      "office": "CHE Building, Room 301",
+      "email": "k.harris@gtu.edu",
+      "phone": "+1-555-0216",
+      "courses_taught": ["CHE301", "CHE302"],
+      "research_projects": ["Process Optimization", "Petrochemical Engineering"],
+      "additional_info": {
+        "hire_date": "2004-06-01",
+        "salary_grade": "A1",
+        "publications": 82,
+        "phd_students": 12,
+        "masters_students": 26
+      }
+    },
+    {
+      "faculty_id": "F8001",
+      "name": "Dr. Linda Thompson",
+      "department": "BUS",
+      "position": "Professor & Head of Department",
+      "specialization": "Strategic Management, Entrepreneurship",
+      "qualification": "PhD in Business Administration, Wharton School",
+      "experience_years": 18,
+      "office": "BUS Building, Room 401",
+      "email": "l.thompson@gtu.edu",
+      "phone": "+1-555-0217",
+      "courses_taught": ["BUS301", "BUS401", "BUS501"],
+      "research_projects": ["Strategic Management", "Startup Ecosystems"],
+      "additional_info": {
+        "hire_date": "2006-08-15",
+        "salary_grade": "A1",
+        "publications": 68,
+        "phd_students": 9,
+        "masters_students": 22
+      }
+    },
+    {
+      "faculty_id": "F8002",
+      "name": "Prof. Brian Wilson",
+      "department": "BUS",
+      "position": "Associate Professor",
+      "specialization": "Marketing, Consumer Behavior",
+      "qualification": "PhD in Marketing, Northwestern University",
+      "experience_years": 12,
+      "office": "BUS Building, Room 302",
+      "email": "b.wilson@gtu.edu",
+      "phone": "+1-555-0218",
+      "courses_taught": ["BUS101", "BUS201"],
+      "research_projects": ["Digital Marketing", "Consumer Analytics"],
+      "additional_info": {
+        "hire_date": "2012-01-15",
+        "salary_grade": "A2",
+        "publications": 42,
+        "phd_students": 5,
+        "masters_students": 15
+      }
+    },
+    {
+      "faculty_id": "F9001",
+      "name": "Dr. Rachel Green",
+      "department": "ECO",
+      "position": "Professor & Head of Department",
+      "specialization": "Macroeconomics, Economic Policy",
+      "qualification": "PhD in Economics, University of Chicago",
+      "experience_years": 16,
+      "office": "ECO Building, Room 201",
+      "email": "r.green@gtu.edu",
+      "phone": "+1-555-0219",
+      "courses_taught": ["ECO301", "ECO302"],
+      "research_projects": ["Economic Policy Analysis", "Macroeconomic Modeling"],
+      "additional_info": {
+        "hire_date": "2008-08-15",
+        "salary_grade": "A1",
+        "publications": 58,
+        "phd_students": 7,
+        "masters_students": 18
+      }
+    },
+    {
+      "faculty_id": "F0010",
+      "name": "Dr. Mark Robinson",
+      "department": "PSY",
+      "position": "Professor & Head of Department",
+      "specialization": "Clinical Psychology, Cognitive Psychology",
+      "qualification": "PhD in Psychology, Stanford University",
+      "experience_years": 14,
+      "office": "PSY Building, Room 101",
+      "email": "m.robinson@gtu.edu",
+      "phone": "+1-555-0220",
+      "courses_taught": ["PSY301", "PSY302"],
+      "research_projects": ["Cognitive Behavioral Therapy", "Mental Health"],
+      "additional_info": {
+        "hire_date": "2010-03-01",
+        "salary_grade": "A1",
+        "publications": 51,
+        "phd_students": 6,
+        "masters_students": 14
+      }
+    }
+  ],
+  "courses": [
+    {
+      "course_id": "CSE101",
+      "name": "Introduction to Programming",
+      "credit_hours": 3,
+      "description": "Fundamentals of programming using Python. Covers basic syntax, control structures, functions, and simple data structures.",
+      "prerequisites": [],
+      "semester": 1,
+      "year": 1,
+      "assigned_faculty": "F1005",
+      "enrolled_students": ["S1001", "S1002", "S1003", "S1004", "S1005", "S2001", "S2002", "S2003", "S3001", "S3002", "S4001", "S5001", "S6001", "S7001", "S8001", "S9001", "S0011", "S0012", "S0013"],
+      "course_type": "Core",
+      "max_capacity": 30,
+      "current_enrollment": 19,
+      "schedule": {
+        "days": ["Monday", "Wednesday"],
+        "time": "10:00 AM - 11:15 AM",
+        "room": "CSE-101"
+      },
+      "grading_policy": {
+        "assignments": 30,
+        "quizzes": 20,
+        "midterm": 20,
+        "final": 30
+      }
+    },
+    {
+      "course_id": "CSE102",
+      "name": "Object-Oriented Programming",
+      "credit_hours": 3,
+      "description": "Introduction to object-oriented programming concepts using Java. Covers classes, objects, inheritance, polymorphism, and encapsulation.",
+      "prerequisites": ["CSE101"],
+      "semester": 2,
+      "year": 1,
+      "assigned_faculty": "F1004",
+      "enrolled_students": ["S1001", "S1002", "S1003", "S1004", "S1005", "S0011"],
+      "course_type": "Core",
+      "max_capacity": 25,
+      "current_enrollment": 6,
+      "schedule": {
+        "days": ["Tuesday", "Thursday"],
+        "time": "9:30 AM - 10:45 AM",
+        "room": "CSE-102"
+      },
+      "grading_policy": {
+        "assignments": 25,
+        "projects": 25,
+        "midterm": 25,
+        "final": 25
+      }
+    },
+    {
+      "course_id": "CSE201",
+      "name": "Data Structures and Algorithms",
+      "credit_hours": 4,
+      "description": "Study of fundamental data structures and algorithms. Includes arrays, linked lists, stacks, queues, trees, graphs, sorting, and searching algorithms.",
+      "prerequisites": ["CSE102"],
+      "semester": 3,
+      "year": 2,
+      "assigned_faculty": "F1002",
+      "enrolled_students": ["S1001", "S1002", "S1003", "S1004", "S1005", "S0011"],
+      "course_type": "Core",
+      "max_capacity": 25,
+      "current_enrollment": 6,
+      "schedule": {
+        "days": ["Monday", "Wednesday", "Friday"],
+        "time": "11:30 AM - 12:45 PM",
+        "room": "CSE-201"
+      },
+      "grading_policy": {
+        "assignments": 20,
+        "projects": 30,
+        "midterm": 20,
+        "final": 30
+      }
+    },
+    {
+      "course_id": "CSE202",
+      "name": "Computer Organization",
+      "credit_hours": 3,
+      "description": "Introduction to computer organization and architecture. Covers digital logic, processor design, memory systems, and I/O organization.",
+      "prerequisites": ["CSE101"],
+      "semester": 4,
+      "year": 2,
+      "assigned_faculty": "F1003",
+      "enrolled_students": ["S1001", "S1002", "S1004", "S0011"],
+      "course_type": "Core",
+      "max_capacity": 20,
+      "current_enrollment": 4,
+      "schedule": {
+        "days": ["Tuesday", "Thursday"],
+        "time": "2:00 PM - 3:15 PM",
+        "room": "CSE-202"
+      },
+      "grading_policy": {
+        "assignments": 25,
+        "lab": 25,
+        "midterm": 25,
+        "final": 25
+      }
+    },
+    {
+      "course_id": "CSE301",
+      "name": "Database Management Systems",
+      "credit_hours": 3,
+      "description": "Introduction to database systems. Covers relational database design, SQL, normalization, transaction processing, and concurrency control.",
+      "prerequisites": ["CSE201"],
+      "semester": 5,
+      "year": 3,
+      "assigned_faculty": "F1002",
+      "enrolled_students": ["S1001", "S1002", "S1004", "S1005", "S0011"],
+      "course_type": "Core",
+      "max_capacity": 25,
+      "current_enrollment": 5,
+      "schedule": {
+        "days": ["Monday", "Wednesday"],
+        "time": "1:00 PM - 2:15 PM",
+        "room": "CSE-301"
+      },
+      "grading_policy": {
+        "assignments": 20,
+        "project": 30,
+        "midterm": 20,
+        "final": 30
+      }
+    },
+    {
+      "course_id": "CSE302",
+      "name": "Operating Systems",
+      "credit_hours": 4,
+      "description": "Study of operating system concepts including processes, threads, CPU scheduling, memory management, file systems, and security.",
+      "prerequisites": ["CSE201", "CSE202"],
+      "semester": 6,
+      "year": 3,
+      "assigned_faculty": "F1004",
+      "enrolled_students": ["S1004", "S0011"],
+      "course_type": "Core",
+      "max_capacity": 20,
+      "current_enrollment": 2,
+      "schedule": {
+        "days": ["Tuesday", "Thursday", "Friday"],
+        "time": "10:00 AM - 11:15 AM",
+        "room": "CSE-302"
+      },
+      "grading_policy": {
+        "assignments": 25,
+        "projects": 25,
+        "midterm": 25,
+        "final": 25
+      }
+    },
+    {
+      "course_id": "CSE401",
+      "name": "Software Engineering",
+      "credit_hours": 3,
+      "description": "Principles of software engineering including requirements analysis, design, implementation, testing, and project management.",
+      "prerequisites": ["CSE301"],
+      "semester": 7,
+      "year": 4,
+      "assigned_faculty": "F1002",
+      "enrolled_students": ["S1004", "S0011"],
+      "course_type": "Core",
+      "max_capacity": 20,
+      "current_enrollment": 2,
+      "schedule": {
+        "days": ["Monday", "Wednesday"],
+        "time": "2:30 PM - 3:45 PM",
+        "room": "CSE-401"
+      },
+      "grading_policy": {
+        "assignments": 15,
+        "project": 40,
+        "midterm": 20,
+        "final": 25
+      }
+    },
+    {
+      "course_id": "CSE402",
+      "name": "Computer Networks",
+      "credit_hours": 3,
+      "description": "Introduction to computer networks including network architectures, protocols, routing, switching, and network security.",
+      "prerequisites": ["CSE302"],
+      "semester": 8,
+      "year": 4,
+      "assigned_faculty": "F1003",
+      "enrolled_students": ["S0011"],
+      "course_type": "Core",
+      "max_capacity": 20,
+      "current_enrollment": 1,
+      "schedule": {
+        "days": ["Tuesday", "Thursday"],
+        "time": "11:30 AM - 12:45 PM",
+        "room": "CSE-402"
+      },
+      "grading_policy": {
+        "assignments": 20,
+        "lab": 20,
+        "midterm": 30,
+        "final": 30
+      }
+    },
+    {
+      "course_id": "CSE501",
+      "name": "Artificial Intelligence",
+      "credit_hours": 4,
+      "description": "Introduction to artificial intelligence including search algorithms, knowledge representation, machine learning, and natural language processing.",
+      "prerequisites": ["CSE301", "MAT201"],
+      "semester": 9,
+      "year": 5,
+      "assigned_faculty": "F1001",
+      "enrolled_students": [],
+      "course_type": "Elective",
+      "max_capacity": 15,
+      "current_enrollment": 0,
+      "schedule": {
+        "days": ["Monday", "Wednesday", "Friday"],
+        "time": "9:00 AM - 10:15 AM",
+        "room": "CSE-501"
+      },
+      "grading_policy": {
+        "assignments": 20,
+        "project": 30,
+        "midterm": 20,
+        "final": 30
+      }
+    },
+    {
+      "course_id": "EEE101",
+      "name": "Circuit Analysis",
+      "credit_hours": 4,
+      "description": "Fundamentals of electrical circuit analysis including DC and AC circuits, network theorems, and transient analysis.",
+      "prerequisites": [],
+      "semester": 1,
+      "year": 1,
+      "assigned_faculty": "F2003",
+      "enrolled_students": ["S2001", "S2002", "S2003", "S0012"],
+      "course_type": "Core",
+      "max_capacity": 30,
+      "current_enrollment": 4,
+      "schedule": {
+        "days": ["Monday", "Wednesday", "Friday"],
+        "time": "8:00 AM - 9:15 AM",
+        "room": "EEE-101"
+      },
+      "grading_policy": {
+        "assignments": 20,
+        "lab": 20,
+        "midterm": 30,
+        "final": 30
+      }
+    },
+    {
+      "course_id": "EEE102",
+      "name": "Digital Logic Design",
+      "credit_hours": 3,
+      "description": "Introduction to digital logic circuits including Boolean algebra, combinational and sequential circuits, and digital system design.",
+      "prerequisites": ["EEE101"],
+      "semester": 2,
+      "year": 1,
+      "assigned_faculty": "F2003",
+      "enrolled_students": ["S2001", "S2002", "S2003", "S0012"],
+      "course_type": "Core",
+      "max_capacity": 25,
+      "current_enrollment": 4,
+      "schedule": {
+        "days": ["Tuesday", "Thursday"],
+        "time": "10:00 AM - 11:15 AM",
+        "room": "EEE-102"
+      },
+      "grading_policy": {
+        "assignments": 25,
+        "lab": 25,
+        "midterm": 25,
+        "final": 25
+      }
+    },
+    {
+      "course_id": "EEE201",
+      "name": "Electronics I",
+      "credit_hours": 4,
+      "description": "Study of semiconductor devices including diodes, bipolar junction transistors, and field-effect transistors.",
+      "prerequisites": ["EEE101"],
+      "semester": 3,
+      "year": 2,
+      "assigned_faculty": "F2002",
+      "enrolled_students": ["S2001", "S2002", "S2003", "S0012"],
+      "course_type": "Core",
+      "max_capacity": 20,
+      "current_enrollment": 4,
+      "schedule": {
+        "days": ["Monday", "Wednesday", "Friday"],
+        "time": "1:00 PM - 2:15 PM",
+        "room": "EEE-201"
+      },
+      "grading_policy": {
+        "assignments": 20,
+        "lab": 20,
+        "midterm": 30,
+        "final": 30
+      }
+    },
+    {
+      "course_id": "EEE202",
+      "name": "Signals and Systems",
+      "credit_hours": 3,
+      "description": "Introduction to continuous and discrete-time signals and systems including Fourier analysis and system response.",
+      "prerequisites": ["EEE101", "MAT102"],
+      "semester": 4,
+      "year": 2,
+      "assigned_faculty": "F2003",
+      "enrolled_students": ["S2001", "S2002", "S2003", "S0012"],
+      "course_type": "Core",
+      "max_capacity": 20,
+      "current_enrollment": 4,
+      "schedule": {
+        "days": ["Tuesday", "Thursday"],
+        "time": "2:30 PM - 3:45 PM",
+        "room": "EEE-202"
+      },
+      "grading_policy": {
+        "assignments": 25,
+        "midterm": 35,
+        "final": 40
+      }
+    },
+    {
+      "course_id": "EEE301",
+      "name": "Power Systems",
+      "credit_hours": 4,
+      "description": "Study of power generation, transmission, and distribution systems including transformers, generators, and protection systems.",
+      "prerequisites": ["EEE201"],
+      "semester": 5,
+      "year": 3,
+      "assigned_faculty": "F2001",
+      "enrolled_students": ["S2001", "S2002", "S2003", "S0012"],
+      "course_type": "Core",
+      "max_capacity": 20,
+      "current_enrollment": 4,
+      "schedule": {
+        "days": ["Monday", "Wednesday", "Friday"],
+        "time": "10:00 AM - 11:15 AM",
+        "room": "EEE-301"
+      },
+      "grading_policy": {
+        "assignments": 20,
+        "project": 20,
+        "midterm": 30,
+        "final": 30
+      }
+    },
+    {
+      "course_id": "MAT101",
+      "name": "Calculus I",
+      "credit_hours": 4,
+      "description": "Differential calculus including limits, continuity, derivatives, and applications of derivatives.",
+      "prerequisites": [],
+      "semester": 1,
+      "year": 1,
+      "assigned_faculty": "F5002",
+      "enrolled_students": ["S1001", "S1002", "S1003", "S1004", "S1005", "S2001", "S2002", "S2003", "S3001", "S3002", "S4001", "S5001", "S6001", "S7001", "S8001", "S9001", "S0010", "S0011", "S0012", "S0013"],
+      "course_type": "Core",
+      "max_capacity": 40,
+      "current_enrollment": 20,
+      "schedule": {
+        "days": ["Monday", "Wednesday", "Friday"],
+        "time": "8:00 AM - 9:15 AM",
+        "room": "MAT-101"
+      },
+      "grading_policy": {
+        "assignments": 20,
+        "quizzes": 20,
+        "midterm": 30,
+        "final": 30
+      }
+    },
+    {
+      "course_id": "MAT102",
+      "name": "Calculus II",
+      "credit_hours": 4,
+      "description": "Integral calculus including integration techniques, applications of integration, and infinite series.",
+      "prerequisites": ["MAT101"],
+      "semester": 2,
+      "year": 1,
+      "assigned_faculty": "F5002",
+      "enrolled_students": ["S1001", "S1002", "S1003", "S1004", "S1005", "S2001", "S2002", "S2003", "S3001", "S3002", "S4001", "S5001", "S6001", "S7001", "S8001", "S9001", "S0011", "S0012", "S0013"],
+      "course_type": "Core",
+      "max_capacity": 35,
+      "current_enrollment": 19,
+      "schedule": {
+        "days": ["Tuesday", "Thursday", "Friday"],
+        "time": "9:30 AM - 10:45 AM",
+        "room": "MAT-102"
+      },
+      "grading_policy": {
+        "assignments": 20,
+        "quizzes": 20,
+        "midterm": 30,
+        "final": 30
+      }
+    },
+    {
+      "course_id": "PHY101",
+      "name": "Physics I: Mechanics",
+      "credit_hours": 4,
+      "description": "Classical mechanics including kinematics, dynamics, energy, momentum, rotational motion, and oscillations.",
+      "prerequisites": ["MAT101"],
+      "semester": 1,
+      "year": 1,
+      "assigned_faculty": "F6002",
+      "enrolled_students": ["S1001", "S1002", "S1003", "S1004", "S1005", "S2001", "S2002", "S2003", "S3001", "S3002", "S4001", "S5001", "S6001", "S7001", "S8001", "S9001", "S0010", "S0011", "S0012", "S0013"],
+      "course_type": "Core",
+      "max_capacity": 40,
+      "current_enrollment": 20,
+      "schedule": {
+        "days": ["Monday", "Wednesday", "Friday"],
+        "time": "11:30 AM - 12:45 PM",
+        "room": "PHY-101"
+      },
+      "grading_policy": {
+        "assignments": 20,
+        "lab": 20,
+        "midterm": 30,
+        "final": 30
+      }
+    },
+    {
+      "course_id": "PHY102",
+      "name": "Physics II: Electricity and Magnetism",
+      "credit_hours": 4,
+      "description": "Electricity and magnetism including electrostatics, circuits, magnetic fields, and electromagnetic waves.",
+      "prerequisites": ["PHY101", "MAT102"],
+      "semester": 2,
+      "year": 1,
+      "assigned_faculty": "F6002",
+      "enrolled_students": ["S2001", "S2002", "S2003", "S3001", "S3002", "S6001", "S7001", "S0012", "S0013"],
+      "course_type": "Core",
+      "max_capacity": 30,
+      "current_enrollment": 9,
+      "schedule": {
+        "days": ["Tuesday", "Thursday", "Friday"],
+        "time": "1:00 PM - 2:15 PM",
+        "room": "PHY-102"
+      },
+      "grading_policy": {
+        "assignments": 20,
+        "lab": 20,
+        "midterm": 30,
+        "final": 30
+      }
+    },
+    {
+      "course_id": "BUS101",
+      "name": "Introduction to Business",
+      "credit_hours": 3,
+      "description": "Overview of business concepts including management, marketing, finance, accounting, and business ethics.",
+      "prerequisites": [],
+      "semester": 1,
+      "year": 1,
+      "assigned_faculty": "F8002",
+      "enrolled_students": ["S1001", "S1002", "S1003", "S1004", "S1005", "S5001", "S6001", "S7001", "S8001", "S9001", "S0010", "S0011", "S0012", "S0013"],
+      "course_type": "General Education",
+      "max_capacity": 40,
+      "current_enrollment": 14,
+      "schedule": {
+        "days": ["Monday", "Wednesday"],
+        "time": "2:30 PM - 3:45 PM",
+        "room": "BUS-101"
+      },
+      "grading_policy": {
+        "assignments": 25,
+        "case_studies": 25,
+        "midterm": 25,
+        "final": 25
+      }
+    },
+    {
+      "course_id": "ECO101",
+      "name": "Principles of Microeconomics",
+      "credit_hours": 3,
+      "description": "Introduction to microeconomic principles including supply and demand, market structures, consumer behavior, and firm theory.",
+      "prerequisites": [],
+      "semester": 1,
+      "year": 1,
+      "assigned_faculty": "F9001",
+      "enrolled_students": ["S8001", "S9001", "S0010"],
+      "course_type": "Core",
+      "max_capacity": 25,
+      "current_enrollment": 3,
+      "schedule": {
+        "days": ["Tuesday", "Thursday"],
+        "time": "11:30 AM - 12:45 PM",
+        "room": "ECO-101"
+      },
+      "grading_policy": {
+        "assignments": 20,
+        "problem_sets": 20,
+        "midterm": 30,
+        "final": 30
+      }
+    },
+    {
+      "course_id": "PSY101",
+      "name": "Introduction to Psychology",
+      "credit_hours": 3,
+      "description": "Overview of psychological concepts including cognition, perception, learning, motivation, and social psychology.",
+      "prerequisites": [],
+      "semester": 1,
+      "year": 1,
+      "assigned_faculty": "F0010",
+      "enrolled_students": ["S0010"],
+      "course_type": "Core",
+      "max_capacity": 20,
+      "current_enrollment": 1,
+      "schedule": {
+        "days": ["Monday", "Wednesday"],
+        "time": "9:00 AM - 10:15 AM",
+        "room": "PSY-101"
+      },
+      "grading_policy": {
+        "assignments": 25,
+        "research_paper": 25,
+        "midterm": 25,
+        "final": 25
+      }
+    },
+    {
+      "course_id": "ME101",
+      "name": "Engineering Mechanics: Statics",
+      "credit_hours": 3,
+      "description": "Study of static equilibrium of particles and rigid bodies including forces, moments, and free-body diagrams.",
+      "prerequisites": ["PHY101"],
+      "semester": 2,
+      "year": 1,
+      "assigned_faculty": "F3001",
+      "enrolled_students": ["S3001", "S3002", "S0013"],
+      "course_type": "Core",
+      "max_capacity": 25,
+      "current_enrollment": 3,
+      "schedule": {
+        "days": ["Tuesday", "Thursday"],
+        "time": "8:00 AM - 9:15 AM",
+        "room": "ME-101"
+      },
+      "grading_policy": {
+        "assignments": 30,
+        "midterm": 35,
+        "final": 35
+      }
+    },
+    {
+      "course_id": "CE101",
+      "name": "Introduction to Civil Engineering",
+      "credit_hours": 3,
+      "description": "Overview of civil engineering disciplines including structural, environmental, geotechnical, and transportation engineering.",
+      "prerequisites": [],
+      "semester": 1,
+      "year": 1,
+      "assigned_faculty": "F4001",
+      "enrolled_students": ["S4001"],
+      "course_type": "Core",
+      "max_capacity": 20,
+      "current_enrollment": 1,
+      "schedule": {
+        "days": ["Monday", "Wednesday"],
+        "time": "10:00 AM - 11:15 AM",
+        "room": "CE-101"
+      },
+      "grading_policy": {
+        "assignments": 25,
+        "project": 25,
+        "midterm": 25,
+        "final": 25
+      }
+    },
+    {
+      "course_id": "CHE101",
+      "name": "Introduction to Chemical Engineering",
+      "credit_hours": 3,
+      "description": "Overview of chemical engineering principles including material and energy balances, process calculations, and unit operations.",
+      "prerequisites": ["CHEM101"],
+      "semester": 2,
+      "year": 1,
+      "assigned_faculty": "F7001",
+      "enrolled_students": ["S7001"],
+      "course_type": "Core",
+      "max_capacity": 20,
+      "current_enrollment": 1,
+      "schedule": {
+        "days": ["Tuesday", "Thursday"],
+        "time": "1:00 PM - 2:15 PM",
+        "room": "CHE-101"
+      },
+      "grading_policy": {
+        "assignments": 30,
+        "problem_sets": 20,
+        "midterm": 25,
+        "final": 25
+      }
+    }
+  ]
+}
